@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.fans {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  column-gap: 5em;
+  align-items: center;
+}
+
+.fan {
+  /* width: fit-content; */
+  transition-property: all;
+  transition-duration: 5s;
+  /* border: 2px solid red; */
+}
+
+#fan2 {
+  border-radius: 50%;
+  /* border: 3px solid red; */
+}
+.fan:hover {
+  transform: rotate(10turn);
+  transition-timing-function: ease-in-out;
+}
